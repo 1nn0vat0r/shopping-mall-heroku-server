@@ -27,7 +27,7 @@ const connect = mongoose.connect(config.mongoURI,
 */
 
 //adjustment for deploy
-mongoose.connect(config.mongoURI || "mongodb+srv://kuntange:1149115@travelplanet.lyjgq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
+mongoose.connect(config.mongoURI || "mongodb+srv://bsw8187:seungwoo1234@cluster0.aceiscb.mongodb.net/test?retryWrites=true&w=majority", {
   useNewUrlParser: true, useUnifiedTopology: true,
   useCreateIndex: true, useFindAndModify: false
 });
