@@ -12,8 +12,8 @@
     "backend": "nodemon server/index.js",
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
-    "build": "cd client && npm run build",
-    "install-client": "cd client && npm install",
+    "build": "cd client && npm run build --force",
+    "install-client": "cd client && npm install --force",
     "heroku-postbuild": "npm run install-client && npm run build"
   },
   "author": "1nn0vat0r",
